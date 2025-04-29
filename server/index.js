@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors');
 require('dotenv').config();
 
-const uri = process.env.MONGODB_URI || 'mongodb+srv://cristiancurea03:<db_password>@triviagocluster.rpkhubj.mongodb.net/';
+const uri = process.env.MONGODB_URI || 'mongodb+srv://cristiancurea03:pw1234@triviagocluster.rpkhubj.mongodb.net/';
 const JWT_SECRET = process.env.JWT_SECRET || 'your_jwt_secret_key';
 
 const app = express();
